@@ -31,6 +31,11 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# gems for mongo
+# gem 'mongo', "~> 2.5"
+gem "mongoid", "~> 6.0"
+gem "bson_ext"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
